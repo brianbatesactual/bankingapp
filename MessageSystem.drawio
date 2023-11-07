@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T18:22:13.179Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="jGu0XwgADLpyxV8uIKHI" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T18:23:34.068Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oqn5aXjDxPoifVPnYWqX" version="22.0.8" type="github">
   <diagram name="Page-1" id="EvOUfGDci_ap1rW1WRY8">
     <mxGraphModel dx="1247" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -90,19 +90,13 @@
         <mxCell id="A6c-KQh-mXFQbTrkvuAl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.085;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6c-KQh-mXFQbTrkvuAl-3" target="A6c-KQh-mXFQbTrkvuAl-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6c-KQh-mXFQbTrkvuAl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6c-KQh-mXFQbTrkvuAl-26" target="A6c-KQh-mXFQbTrkvuAl-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="A6c-KQh-mXFQbTrkvuAl-26" value="Load Balancer" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_load_balancer;" vertex="1" parent="1">
-          <mxGeometry x="260" y="450" width="50" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="A6c-KQh-mXFQbTrkvuAl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6c-KQh-mXFQbTrkvuAl-29">
+        <mxCell id="A6c-KQh-mXFQbTrkvuAl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="A6c-KQh-mXFQbTrkvuAl-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285.75" y="490" as="targetPoint" />
+            <mxPoint x="285" y="450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A6c-KQh-mXFQbTrkvuAl-29" value="HA Notification Database" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.database;" vertex="1" parent="1">
-          <mxGeometry x="267" y="560" width="37.5" height="50" as="geometry" />
+        <mxCell id="A6c-KQh-mXFQbTrkvuAl-29" value="Notification Database" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.database;" vertex="1" parent="1">
+          <mxGeometry x="266.25" y="448" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="A6c-KQh-mXFQbTrkvuAl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A6c-KQh-mXFQbTrkvuAl-14" target="A6c-KQh-mXFQbTrkvuAl-1">
           <mxGeometry relative="1" as="geometry" />
