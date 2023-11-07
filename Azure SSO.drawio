@@ -1,9 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T18:53:40.752Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="mPpY7vCDUIj67EIh-_yC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T19:44:51.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3EaoL3ikz8lmwCO9aLSJ" version="22.0.8" type="github">
   <diagram name="Page-1" id="Bhud1RvDwyFYFxd_YgfU">
-    <mxGraphModel>
+    <mxGraphModel dx="623" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.934;entryY=1.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RysDMxhuhbHJPmH4GJh6-1" target="RysDMxhuhbHJPmH4GJh6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="148" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-11" value="(9) User Accesses App" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-10">
+          <mxGeometry x="0.2143" relative="1" as="geometry">
+            <mxPoint x="-38" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/My_Customers.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="69" height="56.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="108" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-7" value="App" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="41" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="169" y="320" as="sourcePoint" />
+            <mxPoint x="309" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-20" value="(2) Redirected to AD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-12">
+          <mxGeometry x="0.1143" y="1" relative="1" as="geometry">
+            <mxPoint x="-56" y="59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-13" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="209.5" y="320" as="sourcePoint" />
+            <mxPoint x="349.5" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-21" value="(3) User ID Entered" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-13">
+          <mxGeometry x="0.1964" y="-2" relative="1" as="geometry">
+            <mxPoint x="-45" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114" y="320" as="sourcePoint" />
+            <mxPoint x="114" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-15" value="(1) User Opens App" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-14">
+          <mxGeometry x="0.2143" relative="1" as="geometry">
+            <mxPoint x="37" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-16" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;startArrow=classic;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="259.5" y="320" as="sourcePoint" />
+            <mxPoint x="399.5" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-22" value="(4)Kerberos Challenge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-16">
+          <mxGeometry x="0.4036" y="1" relative="1" as="geometry">
+            <mxPoint x="-27" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-17" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;startArrow=classic;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="349.5" y="320" as="sourcePoint" />
+            <mxPoint x="489.5" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-28" value="(8) Azure AD Signs In" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-17">
+          <mxGeometry x="0.171" relative="1" as="geometry">
+            <mxPoint x="-23" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-18" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="304.5" y="320" as="sourcePoint" />
+            <mxPoint x="444.5" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-27" value="(7) Device Forwards Ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-18">
+          <mxGeometry x="-0.2281" relative="1" as="geometry">
+            <mxPoint x="61" y="-56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-23" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-25" value="(5) Kerberos Ticket Requested" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-23">
+          <mxGeometry x="0.2289" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;startArrow=classic;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="390" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-26" value="(6) IdP Returns Ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RysDMxhuhbHJPmH4GJh6-24">
+          <mxGeometry x="-0.4499" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RysDMxhuhbHJPmH4GJh6-30" value="Identity Provider" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/identity_provider.svg;" vertex="1" parent="1">
+          <mxGeometry x="495" y="343" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
